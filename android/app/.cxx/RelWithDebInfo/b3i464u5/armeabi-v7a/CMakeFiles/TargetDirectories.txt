@@ -1,0 +1,2 @@
+/Users/ivanshu/Downloads/star_astro_final/Star_Astro_App/android/app/.cxx/RelWithDebInfo/b3i464u5/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/ivanshu/Downloads/star_astro_final/Star_Astro_App/android/app/.cxx/RelWithDebInfo/b3i464u5/armeabi-v7a/CMakeFiles/rebuild_cache.dir

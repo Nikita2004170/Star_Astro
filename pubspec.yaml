@@ -1,0 +1,182 @@
+name: star_astro
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 0.0.2+3
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  auto_route: ^10.1.0+1 
+  url_launcher: ^6.2.5
+  provider: ^6.0.4
+  shared_preferences:
+  intl:
+  bot_toast: ^4.1.3
+  get_it: ^8.0.3
+  logger: ^2.5.0
+  dio: ^5.7.0
+  string_validator: ^1.0.2
+  connectivity_plus:
+  permission_handler: ^12.0.0+1
+  one_context: ^4.0.0
+
+  #Firebase
+  firebase_performance: ^0.10.1+5
+  firebase_core: ^3.13.0
+  firebase_crashlytics: ^4.3.5
+  firebase_analytics: ^11.4.5
+  firebase_messaging:
+  # package_info_plus: ^8.0.2
+
+  #Grid View
+  flutter_staggered_grid_view: ^0.7.0
+
+  #Responsive UI Check
+  device_preview: ^1.2.0
+  responsive_framework: ^1.5.1
+
+  lottie: ^3.1.2
+  flutter_rating_bar: ^4.0.1
+  font_awesome_flutter: ^10.7.0
+  icons_plus: ^5.0.0
+
+  #Payment
+  razorpay_flutter: ^1.3.7
+  pinput: ^5.0.0
+
+  flutter_dotenv: ^5.1.0
+  fluttertoast: ^8.2.8
+
+  #Web View
+  webview_flutter: ^4.8.0
+
+  geolocator: ^14.0.0
+  http: ^1.2.2
+  #  flutter_stripe: ^11.1.0
+  # uni_links: 
+
+  flutter_web_auth_2: 
+  app_links: ^6.4.0
+  go_router: ^15.1.2
+  flutter_phoenix: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.3.9
+  flutter_launcher_icons: ^0.14.3
+  auto_route_generator: 
+  build_runner: 
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/additional_setting/
+    - assets/images/additional_setting/support.png
+    - assets/images/app_appearance/
+    - assets/images/home/
+    - assets/images/home/hanumanai.png
+    - assets/images/static/
+    - assets/images/pdf_report/
+    - assets/images/onboarding/
+    - assets/images/additional_setting/support.png
+    - assets/images/horoscope_sign/
+    - assets/images/additional_setting/change_password.png
+    - assets/images/additional_setting/support.png
+    - assets/images/additional_setting/delete.png
+    - assets/images/additional_setting/support.png
+    - assets/images/additional_setting/change_password.png
+    - assets/images/additional_setting/support.png
+    - assets/images/additional_setting/delete.png
+    - assets/images/settings_credit.png
+    - assets/images/settings_purchase.png
+    - assets/images/logout.png
+    - assets/images/settings_credit.png
+    - assets/images/settings_purchase.png
+    - assets/images/logout.png
+
+
+
+  fonts:
+    - family: Sora
+      fonts:
+        - asset: assets/fonts/sora/Sora-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/sora/Sora-Light.ttf
+          weight: 300
+        - asset: assets/fonts/sora/Sora-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/sora/Sora-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/sora/Sora-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/sora/Sora-ExtraBold.ttf
+          weight: 900
+
+    - family: Source_Code_Pro
+      fonts:
+        - asset: assets/fonts/source_code_pro/SourceCodePro-Black.ttf
+          weight: 100
+        - asset: assets/fonts/source_code_pro/SourceCodePro-Light.ttf
+          weight: 300
+        - asset: assets/fonts/source_code_pro/SourceCodePro-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/source_code_pro/SourceCodePro-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/source_code_pro/SourceCodePro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/source_code_pro/SourceCodePro-ExtraBold.ttf
+          weight: 900
+
+    - family: Karla
+      fonts:
+        - asset: assets/fonts/karla/Karla-Light.ttf
+          weight: 100
+        - asset: assets/fonts/karla/Karla-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/karla/Karla-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/karla/Karla-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/karla/Karla-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/karla/Karla-ExtraBold.ttf
+          weight: 900
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/images/app_logo.png"
+  remove_alpha_ios: true

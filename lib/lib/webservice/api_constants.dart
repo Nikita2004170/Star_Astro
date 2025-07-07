@@ -1,0 +1,1 @@
+const int CODE_UNAUTHORISED = 401;

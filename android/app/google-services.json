@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511175281308",
+    "project_id": "star-astro-mobile",
+    "storage_bucket": "star-astro-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511175281308:android:f2d703dfc81852733d7b59",
+        "android_client_info": {
+          "package_name": "ai.starastro.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUIBU7WA5RAa0FfuHsN1EGsS84RSc7MDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

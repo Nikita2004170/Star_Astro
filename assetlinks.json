@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ai.starastro.app",
+    "sha256_cert_fingerprints":
+    ["5B:2C:25:BE:60:FE:EE:2F:A1:34:9F:A9:24:16:EB:AB:48:19:5C:D6:5E:CD:F7:EE:89:71:68:B8:F4:2F:F2:C8"]
+  }
+}]

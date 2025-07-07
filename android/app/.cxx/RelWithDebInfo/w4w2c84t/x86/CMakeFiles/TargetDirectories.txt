@@ -1,0 +1,2 @@
+/Users/ivanshu/Downloads/star_astro/android/app/.cxx/RelWithDebInfo/w4w2c84t/x86/CMakeFiles/edit_cache.dir
+/Users/ivanshu/Downloads/star_astro/android/app/.cxx/RelWithDebInfo/w4w2c84t/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/Users/ivanshu/Desktop/final_StarAstro/Star_Astro_App/android/app/.cxx/Debug/4f6a31g1/x86/CMakeFiles/edit_cache.dir
+/Users/ivanshu/Desktop/final_StarAstro/Star_Astro_App/android/app/.cxx/Debug/4f6a31g1/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,44 @@
+import 'package:flutter/material.dart';
+
+class SDColors {
+  static const alertRedColor = Color(0xffFF6F59);
+  static const primaryGreen = Color(0xff2CC784);
+  static const textColor = Color(0xff000000);
+  static const whiteColor = Color(0xffFFFFFF);
+  static const secondary = Color(0xff080808);
+  static const hintTextColor = Color(0xff777777);
+  static const appColor = Color(0xffc60077);
+  static const lightSilverColor = Color(0xffe4e5e8);
+  static const settingsChart = Color(0xFF16172C);
+  static const settingsTextWhite = Color(0xFFFEFEFE);
+  static const accountDivider = Color(0xFF232627);
+  static const referCopy = Color(0xFF6C7275);
+  static const appRed = Color(0xFFEE1E1E);
+  static const logoutButton = Color(0xFF6A7073);
+  static const deleteButtonLeft = Color(0xFF3F2773);
+  static const deleteButtonRight = Color(0xFF341E5F);
+  static const horoscopeTitle = Color(0xFFE8ECEF);
+  static const editProfileFill = Color(0xFF1E1E2A);
+  static const downloadBtn = Color(0xFF0B0218);
+  static const questionGradiantDark = Color(0xFF15032C);
+  static const questionGradiantLight = Color(0xFF09061D);
+  static const homeTitleBackground = Color(0xFF271E4D);
+  static const transparent = Colors.transparent;
+  static const rattingYellow = Color(0xFFF5B34F);
+  static const editYellow = Color(0xffDA8C17);
+  static const chatItemBack = Color(0xFF343839);
+  static const unSelectedIcon = Color(0xFFF3F5F7);
+  static const pdfReportText = Color(0xFFADA8C3);
+  static const dividerColor = Color(0xFF2C1F44);
+  static const backgroundColor = Color(0xFF110527);
+  static const blackColor = Colors.black;
+  static const pdfReportBack = Color(0xFF0C041C);
+  static const sendChatBack = Color(0xFF1D142C);
+  static const chatBack = Color(0xFF2C1E42);
+  static const senderBack = Color(0xFF170E25);
+  static const bottomSheetBack = Color(0xFF0E0C14);
+  static const pdfBannerBack = Color(0xFF231D3B);
+  static const homeGrey = Color(0xFF696969);
+  static const forgotPassword = Color(0xFF3E90F0);
+  static const purpule = Color(0xFF3F2773);
+}
